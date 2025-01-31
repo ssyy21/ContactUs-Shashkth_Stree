@@ -16,8 +16,8 @@ export const POST = async (req:Request)=>{
         })
     } catch (error) {
         if (error instanceof mongoose.Error.ValidationError) {
-            let errorList = [];
-            for (let e in error.errors) {
+            const errorList = [];
+            for (const e in error.errors) {
               errorList.push(error.errors[e].message);
             }
             console.log(errorList);
