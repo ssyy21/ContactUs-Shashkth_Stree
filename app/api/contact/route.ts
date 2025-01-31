@@ -3,7 +3,7 @@ import Contact from '@/model/contact';
 import db from '@/lib/mongoose';
 import { NextResponse } from "next/server";
 
-export const POST = async (req:Request,res:Response)=>{
+export const POST = async (req:Request)=>{
     try {
         const {fullname, email, phone, message} = await req.json();
         await db.connect();
