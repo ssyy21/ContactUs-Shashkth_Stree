@@ -57,7 +57,7 @@ const FormComponents = ()=>{
         <>
         <div className='flex flex-col items-center justify-center min-h-screen bg-cover bg-[url(/footer-bg.png)] text-white p-6'
         >
-        <h2 className='text-3xl font-bold text-white mb-2'>Contact Us ♥</h2>
+        <h2 className='text-3xl font-bold text-white mb-2'>Contact Us</h2>
         <p className='text-center text-gray-300 mb-6'>
             Reach Out, We are here for You<br />
             Feel free to share your story, seek help, or ask for guidance—we are here to listen and support you.
