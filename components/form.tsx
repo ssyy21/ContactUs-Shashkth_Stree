@@ -60,7 +60,7 @@ const FormComponents = ()=>{
         <h2 className='text-3xl font-bold text-white mb-2'>Contact Us ♥</h2>
         <p className='text-center text-gray-300 mb-6'>
             Reach Out, We are here for You<br />
-            Feel free to share your story, seek help, or ask for guidance—we're here to listen and support you.
+            Feel free to share your story, seek help, or ask for guidance—we are here to listen and support you.
         </p>
             <form onSubmit={submitHandler}>
                 <div className='flex flex-col gap-3'>
