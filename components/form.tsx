@@ -12,7 +12,7 @@ const FormComponents = ()=>{
     const email = useRef<HTMLInputElement | null>(null)
     const phone = useRef<HTMLInputElement | null>(null)
     const message = useRef<HTMLTextAreaElement | null>(null)
-    const submitHandler = async (e:any)=>{
+    const submitHandler = async (e:React.FormEvent<HTMLFormElement>)=>{
         e.preventDefault();
         const data = {
             fullname : fullname.current?.value,
@@ -59,7 +59,7 @@ const FormComponents = ()=>{
         >
         <h2 className='text-3xl font-bold text-white mb-2'>Contact Us ♥</h2>
         <p className='text-center text-gray-300 mb-6'>
-            Reach Out, We're Here for You!<br />
+            Reach Out, We&apos;re Here for You!<br />
             Feel free to share your story, seek help, or ask for guidance—we're here to listen and support you.
         </p>
             <form onSubmit={submitHandler}>
