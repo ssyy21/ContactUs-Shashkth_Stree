@@ -80,8 +80,8 @@ const FormComponents = ()=>{
                     <textarea ref={message} className='w-[380px] py-3 px-4 rounded-xl border-4 border-[#C147E9] text-black placeholder-grey-500 h-24' id="message" placeholder='Share with us '/>
                 </div>
                 <div className='mt-3 text-center'>
-                    <button className='py-2 px-10 bg-green-800 text-2xl rounded-lg'
-                     style={{ backgroundColor: '#C147E9' }}>Submit</button>
+                    <button className='py-2 px-10 bg-green-800 text-2xl rounded-lg' style={{ backgroundColor: '#C147E9' }}>Submit</button>
+
                 </div>
             </form>
             <div className=''>
